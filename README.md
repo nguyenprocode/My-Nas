@@ -123,7 +123,7 @@ Các biến đặt trong file `.env` (hoặc biến môi trường của dịch 
 
 ## Đăng nhập
 
-Web chỉ dùng **một tài khoản với một token duy nhất** (`GITHUB_TOKEN` + `APP_PASSWORD`). Các biến có hậu tố `_2`, `_3`... không còn được đọc.
+Web chỉ dùng **một tài khoản với một token duy nhất** (`GITHUB_TOKEN` + `APP_PASSWORD`).
 
 | Hạng mục | Chi tiết |
 |---|---|
