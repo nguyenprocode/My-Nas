@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/img/logo.png" alt="My NAS" width="50%" height="50%" />
+<img src="public/img/logo.svg" alt="My NAS" width="50%" height="50%" />
 
 # My NAS
 
