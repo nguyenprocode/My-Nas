@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My NAS - Login</title>
+<link rel="icon" type="image/svg+xml" href="/img/logo.svg">
+<script src="/js/theme.js"></script>
+<link rel="stylesheet" href="/css/base.css?v=7">
+<link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+<main class="login-wrap">
+  <div class="bg-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-orb orb-2" aria-hidden="true"></div>
+
+  <form class="login-card" id="form">
+    <header class="login-head">
+      <div class="logo-ring">
+        <img class="login-logo" src="/img/logo.svg" alt="My NAS" width="72" height="72">
+      </div>
+      <h1 class="wm"><span class="m">My</span><span class="n">NAS</span></h1>
+      <p class="sub">Đám mây cá nhân của bạn, lưu trữ trên GitHub</p>
+    </header>
+
+    <label class="field">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+      <input class="inp" id="user" type="text" placeholder="Tên đăng nhập (tên GitHub)" autocomplete="username" autocapitalize="none" autocorrect="off" spellcheck="false" autofocus required>
+    </label>
+
+    <label class="field">
+      <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+      <input class="inp" id="pw" type="password" placeholder="Mật khẩu" autocomplete="current-password" required>
+      <button class="eye" id="eye" type="button" aria-label="Hiện mật khẩu" tabindex="-1">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z"/><circle cx="12" cy="12" r="3"/><path class="slash" d="M3 3l18 18"/></svg>
+      </button>
+    </label>
+
+    <button class="btn" id="loginBtn" type="submit">Đăng nhập</button>
+    <div id="lerr" role="alert"></div>
+  </form>
+
+  <p class="foot">© 2026 Bùi Thanh Nguyên</p>
+</main>
+<script src="/js/login.js?v=6"></script>
+</body>
+</html>
